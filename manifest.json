@@ -1,0 +1,22 @@
+{
+
+    "name" : "My First App",
+    "short_name" : "My App",
+    "start_url" : ".",
+    "background_color" : "green",
+    "theme_color" : "#009578",
+    "display" : "standalone",
+    "icons" : [
+        {
+            "src" : "public/logo64.png",
+            "size" : "64x64",
+            "type" : "image/png"
+        },
+        {
+            "src" : "public/logo.png",
+            "size" : "512x512",
+            "type" : "image/png"
+        }
+    ]
+
+}
