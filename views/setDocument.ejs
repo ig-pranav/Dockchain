@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOKCHAIN-set</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="/public/stylesheets/bootstrap.min.css" rel="stylesheet" /> 
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" /> 
+    <link href="stylesheets/templatemo-diagoona.css" rel="stylesheet" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <meta name="theme-color" content="#009578">
+    <link rel="manifest" href="../manifest.json">
+
+    <script type="text/javascript">
+        function sub(){
+            alert('Once Uploaded their will be no future updation.');
+            alert('Are you sure want to continue?');
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="tm-container">        
+        <div>
+            <div class="tm-row pt-4">
+                <div class="tm-col-left">
+                    <div class="tm-site-header media" style="color: rgb(6, 89, 138);">
+                        <i class="fa fa-male fa-3x mt-1 tm-logo"></i><i class="fa fa-female fa-3x mt-1 tm-logo"></i>
+                        <div class="media-body">
+                            <h1 class="tm-sitename text-uppercase" style="color: rgb(255, 255, 255);">DOCKCHAIN</h1>
+                            <p class="tm-slogon">Document Verification using Blockchain</p>
+                        </div>        
+                    </div>
+                </div>
+                <div class="tm-col-right">
+                    <nav class="navbar navbar-expand-lg" id="tm-main-nav">
+                        <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button" 
+                            data-toggle="collapse" data-target="#navbar-nav" 
+                            aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                            <ul class="navbar-nav text-uppercase">
+                                <li class="nav-item active">
+                                    <a class="nav-link tm-nav-link" href="#">Upload Document <span class="sr-only">(current)</span></a>
+                                </li>
+                                
+                            </ul>                            
+                        </div>                        
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="tm-row">
+                <div class="tm-col-left"></div>
+                <main class="tm-col-right">
+                    <section class="tm-content">
+                        
+                        <form action="upload" method="POST" enctype="multipart/form-data" class="enableEthereumButton">
+                          <a style="color: rgb(255, 255, 255);">Enter Document Type:</a>
+                            &nbsp;&nbsp;<select name="typeOfDocument" required>
+                                <option>sslc certificate</option>
+                                <option>Degree certificate</option>
+                                <option>post graduation certificate</option>
+                                <option>Birth Certificate</option>
+                                <option>Driving License</option>
+
+                            </select>
+                            <br><br><br>
+                          <a style="color: rgb(255, 255, 255);">Enter Document Id   :</a>
+
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="docId" placeholder="Enter Document Id" required/>
+                            <br><br><br>
+                          <a style="color: rgb(255, 255, 255);">Document    :</a>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <input type="file" name="certificate" required/>
+                            <br><br><br>
+                            <input class="btn btn-primary" type="submit" value="Upload Document" onclick="sub()"/>
+                          </form><br><br>
+                          <h2><a href="request"><button class="btn btn-danger">Show Requests</button></a></h2>
+                          
+
+                    </section>
+                </main>
+            </div>
+        </div>        
+
+        <div class="tm-row">
+            <div class="tm-col-left text-center">            
+                <ul class="tm-bg-controls-wrapper">
+                    <li class="tm-bg-control active" data-id="0"></li>
+                    <li class="tm-bg-control" data-id="1"></li>
+                    <li class="tm-bg-control" data-id="2"></li>
+                </ul>            
+            </div>        
+        </footer>
+        </div>
+
+        
+        <div class="tm-bg">
+            <div class="tm-bg-left"></div>
+            <div class="tm-bg-right"></div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+    <script src="javascripts/jquery-3.4.1.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/jquery.backstretch.min.js"></script>
+    <script src="javascripts/templatemo-script.js"></script>
+    <script src="javascripts/script.js"></script>
+
+</body>
+</html>
